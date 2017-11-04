@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33ECCE741FAE408C009CF297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECCE731FAE408C009CF297 /* AppDelegate.swift */; };
+		33ECCE761FAE408C009CF297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECCE751FAE408C009CF297 /* ViewController.swift */; };
+		33ECCE781FAE408C009CF297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33ECCE771FAE408C009CF297 /* Assets.xcassets */; };
+		33ECCE7B1FAE408C009CF297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33ECCE791FAE408C009CF297 /* Main.storyboard */; };
+		33ECCE871FAE408C009CF297 /* ProvaGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECCE861FAE408C009CF297 /* ProvaGitTests.swift */; };
+		33ECCE921FAE408C009CF297 /* ProvaGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECCE911FAE408C009CF297 /* ProvaGitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33ECCE831FAE408C009CF297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33ECCE681FAE408C009CF297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33ECCE6F1FAE408C009CF297;
+			remoteInfo = ProvaGit;
+		};
+		33ECCE8E1FAE408C009CF297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33ECCE681FAE408C009CF297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33ECCE6F1FAE408C009CF297;
+			remoteInfo = ProvaGit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33ECCE701FAE408C009CF297 /* ProvaGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvaGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ECCE731FAE408C009CF297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33ECCE751FAE408C009CF297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33ECCE771FAE408C009CF297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33ECCE7A1FAE408C009CF297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33ECCE7C1FAE408C009CF297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33ECCE7D1FAE408C009CF297 /* ProvaGit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProvaGit.entitlements; sourceTree = "<group>"; };
+		33ECCE821FAE408C009CF297 /* ProvaGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvaGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ECCE861FAE408C009CF297 /* ProvaGitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaGitTests.swift; sourceTree = "<group>"; };
+		33ECCE881FAE408C009CF297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33ECCE8D1FAE408C009CF297 /* ProvaGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvaGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ECCE911FAE408C009CF297 /* ProvaGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaGitUITests.swift; sourceTree = "<group>"; };
+		33ECCE931FAE408C009CF297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33ECCE6D1FAE408C009CF297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECCE7F1FAE408C009CF297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECCE8A1FAE408C009CF297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33ECCE671FAE408C009CF297 = {
+			isa = PBXGroup;
+			children = (
+				33ECCE721FAE408C009CF297 /* ProvaGit */,
+				33ECCE851FAE408C009CF297 /* ProvaGitTests */,
+				33ECCE901FAE408C009CF297 /* ProvaGitUITests */,
+				33ECCE711FAE408C009CF297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33ECCE711FAE408C009CF297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33ECCE701FAE408C009CF297 /* ProvaGit.app */,
+				33ECCE821FAE408C009CF297 /* ProvaGitTests.xctest */,
+				33ECCE8D1FAE408C009CF297 /* ProvaGitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33ECCE721FAE408C009CF297 /* ProvaGit */ = {
+			isa = PBXGroup;
+			children = (
+				33ECCE731FAE408C009CF297 /* AppDelegate.swift */,
+				33ECCE751FAE408C009CF297 /* ViewController.swift */,
+				33ECCE771FAE408C009CF297 /* Assets.xcassets */,
+				33ECCE791FAE408C009CF297 /* Main.storyboard */,
+				33ECCE7C1FAE408C009CF297 /* Info.plist */,
+				33ECCE7D1FAE408C009CF297 /* ProvaGit.entitlements */,
+			);
+			path = ProvaGit;
+			sourceTree = "<group>";
+		};
+		33ECCE851FAE408C009CF297 /* ProvaGitTests */ = {
+			isa = PBXGroup;
+			children = (
+				33ECCE861FAE408C009CF297 /* ProvaGitTests.swift */,
+				33ECCE881FAE408C009CF297 /* Info.plist */,
+			);
+			path = ProvaGitTests;
+			sourceTree = "<group>";
+		};
+		33ECCE901FAE408C009CF297 /* ProvaGitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33ECCE911FAE408C009CF297 /* ProvaGitUITests.swift */,
+				33ECCE931FAE408C009CF297 /* Info.plist */,
+			);
+			path = ProvaGitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33ECCE6F1FAE408C009CF297 /* ProvaGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ECCE961FAE408C009CF297 /* Build configuration list for PBXNativeTarget "ProvaGit" */;
+			buildPhases = (
+				33ECCE6C1FAE408C009CF297 /* Sources */,
+				33ECCE6D1FAE408C009CF297 /* Frameworks */,
+				33ECCE6E1FAE408C009CF297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProvaGit;
+			productName = ProvaGit;
+			productReference = 33ECCE701FAE408C009CF297 /* ProvaGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33ECCE811FAE408C009CF297 /* ProvaGitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ECCE991FAE408C009CF297 /* Build configuration list for PBXNativeTarget "ProvaGitTests" */;
+			buildPhases = (
+				33ECCE7E1FAE408C009CF297 /* Sources */,
+				33ECCE7F1FAE408C009CF297 /* Frameworks */,
+				33ECCE801FAE408C009CF297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33ECCE841FAE408C009CF297 /* PBXTargetDependency */,
+			);
+			name = ProvaGitTests;
+			productName = ProvaGitTests;
+			productReference = 33ECCE821FAE408C009CF297 /* ProvaGitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33ECCE8C1FAE408C009CF297 /* ProvaGitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ECCE9C1FAE408C009CF297 /* Build configuration list for PBXNativeTarget "ProvaGitUITests" */;
+			buildPhases = (
+				33ECCE891FAE408C009CF297 /* Sources */,
+				33ECCE8A1FAE408C009CF297 /* Frameworks */,
+				33ECCE8B1FAE408C009CF297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33ECCE8F1FAE408C009CF297 /* PBXTargetDependency */,
+			);
+			name = ProvaGitUITests;
+			productName = ProvaGitUITests;
+			productReference = 33ECCE8D1FAE408C009CF297 /* ProvaGitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33ECCE681FAE408C009CF297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = prova;
+				TargetAttributes = {
+					33ECCE6F1FAE408C009CF297 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					33ECCE811FAE408C009CF297 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33ECCE6F1FAE408C009CF297;
+					};
+					33ECCE8C1FAE408C009CF297 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33ECCE6F1FAE408C009CF297;
+					};
+				};
+			};
+			buildConfigurationList = 33ECCE6B1FAE408C009CF297 /* Build configuration list for PBXProject "ProvaGit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33ECCE671FAE408C009CF297;
+			productRefGroup = 33ECCE711FAE408C009CF297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33ECCE6F1FAE408C009CF297 /* ProvaGit */,
+				33ECCE811FAE408C009CF297 /* ProvaGitTests */,
+				33ECCE8C1FAE408C009CF297 /* ProvaGitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33ECCE6E1FAE408C009CF297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECCE781FAE408C009CF297 /* Assets.xcassets in Resources */,
+				33ECCE7B1FAE408C009CF297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECCE801FAE408C009CF297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECCE8B1FAE408C009CF297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33ECCE6C1FAE408C009CF297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECCE761FAE408C009CF297 /* ViewController.swift in Sources */,
+				33ECCE741FAE408C009CF297 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECCE7E1FAE408C009CF297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECCE871FAE408C009CF297 /* ProvaGitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECCE891FAE408C009CF297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECCE921FAE408C009CF297 /* ProvaGitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33ECCE841FAE408C009CF297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33ECCE6F1FAE408C009CF297 /* ProvaGit */;
+			targetProxy = 33ECCE831FAE408C009CF297 /* PBXContainerItemProxy */;
+		};
+		33ECCE8F1FAE408C009CF297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33ECCE6F1FAE408C009CF297 /* ProvaGit */;
+			targetProxy = 33ECCE8E1FAE408C009CF297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33ECCE791FAE408C009CF297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33ECCE7A1FAE408C009CF297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33ECCE941FAE408C009CF297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33ECCE951FAE408C009CF297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		33ECCE971FAE408C009CF297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ProvaGit/ProvaGit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProvaGit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prova.ProvaGit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		33ECCE981FAE408C009CF297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ProvaGit/ProvaGit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProvaGit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prova.ProvaGit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		33ECCE9A1FAE408C009CF297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProvaGitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prova.ProvaGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvaGit.app/Contents/MacOS/ProvaGit";
+			};
+			name = Debug;
+		};
+		33ECCE9B1FAE408C009CF297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProvaGitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prova.ProvaGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvaGit.app/Contents/MacOS/ProvaGit";
+			};
+			name = Release;
+		};
+		33ECCE9D1FAE408C009CF297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProvaGitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prova.ProvaGitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ProvaGit;
+			};
+			name = Debug;
+		};
+		33ECCE9E1FAE408C009CF297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProvaGitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prova.ProvaGitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ProvaGit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33ECCE6B1FAE408C009CF297 /* Build configuration list for PBXProject "ProvaGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECCE941FAE408C009CF297 /* Debug */,
+				33ECCE951FAE408C009CF297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33ECCE961FAE408C009CF297 /* Build configuration list for PBXNativeTarget "ProvaGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECCE971FAE408C009CF297 /* Debug */,
+				33ECCE981FAE408C009CF297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33ECCE991FAE408C009CF297 /* Build configuration list for PBXNativeTarget "ProvaGitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECCE9A1FAE408C009CF297 /* Debug */,
+				33ECCE9B1FAE408C009CF297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33ECCE9C1FAE408C009CF297 /* Build configuration list for PBXNativeTarget "ProvaGitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECCE9D1FAE408C009CF297 /* Debug */,
+				33ECCE9E1FAE408C009CF297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33ECCE681FAE408C009CF297 /* Project object */;
+}
